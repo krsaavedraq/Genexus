@@ -1,1 +1,423 @@
 Carpeta de gestion
+Sistema de Gestión
+Sistema Contable “MONICA”
+Documento de Gestión de Configuración
+Versión 1.0
+ 
+Historial de Revisiones
+
+Historial de revisiones
+Ítem	Fecha	Versión	Descripción	Equipo
+1	10/12/2014	1.0	Versión inicial	Equipo Gnexus
+2	15/12/2014	1.5	Versión modificada	Equipo Gnexus
+3	02/01/2015	2.0	Versión modificada	Equipo Gnexus
+ 
+Tabla de Contenidos
+1.	Introducción	4
+2.	Objetivos	5
+4.	Referencias	6
+5.	Referencias	7
+6.	Descripción del Proceso	7
+6.1	Identificación: qué se va a configurar	7
+6.2	Control de Cambios: Flujo del Proceso	8
+6.3	Configuración de Cambios	9
+6.4	Comité de Revisión	9
+6.5	Comité de Control	10
+6.6	Gestor de Configuración	10
+7.	Línea Base de la Gestión de Configuración	11
+ 
+Gestión de Configuración
+1.	Introducción
+El cambio es una característica constante en el desarrollo del software. Eliminar el cambio es excluir las oportunidades de aprovechar las lecciones aprendidas, de incorporar tecnología avanzada y de acomodarse mejor al ambiente de cambio. El rechazo a incorporar cambios puede traducirse en limitaciones del sistema y obsolescencia temprana, la cual, en el mundo de la tecnología, puede significar la inutilidad del sistema antes que está completado. Sin embargo, el cambio no es benigno y debe ser controlado en su introducción a un proyecto.
+ 
+2.	Objetivos
+La Gestión de Configuración es el proceso de controlar y documentar el cambio en el desarrollo de un sistema. A medida que crece el esfuerzo, crece también la necesidad de implementar gestión de configuración efectiva. 
+Tiene tres propósitos principales:
+•	Identificar la configuración del producto en diferentes puntos del tiempo.
+•	Controlar cambios en la configuración.
+•	Mantener la integridad y seguimiento de la configuración a través del ciclo de vida del producto.
+PRINCIPAL:
+Administrar la integridad de los artefactos que se generarán a lo largo del ciclo de vida del proyecto MONICA
+
+SECUNADRIOS:
+•	Definir los artefactos que se utilizaran en las diferentes etapas del proyecto MONICA
+•	Conservar la integridad de los artefactos que se generarán a lo largo del ciclo de vida del proyecto MONICA
+•	Rastrear y controlar los cambios que han sufrido los artefactos durante las etapas del proyecto
+•	Definir actividades de CM a desarrollar, su frecuencia, roles y responsabilidades.
+
+El propósito de este documento es definir qué se va a configurar, cómo se va a configurar, quién lo va a configurar y cómo se manejarán los cambios. Esto permitirá al equipo Equipo Gnexus trabajar en conjunto en un ambiente estable y al mismo tiempo con la flexibilidad necesaria para el trabajo creativo.
+ 
+3.	Alcance
+Las actividades contenidas dentro de la Administración de la Configuración son:
+
+•	Elaborar el plan de la Configuración
+•	Identificar los ítems de configuración
+•	Mantenimiento de descripciones de los ítems de configuración.
+•	Establecimiento y administración del repositorio.
+•	Mantenimiento de la historia de los ítems.
+•	Control de los cambios.
+•	Construcción de raleases de productos.
+•	Reporte del estado de la configuración.
+•	Despliegue de las aplicaciones en los distintos ambientes (Desarrollo, Calidad, Producción).
+
+
+4.	Referencias
+Las referencias a utilizar serán:
+•	Procedimiento de Gestión de la Configuración
+•	Procedimiento de Planificación de Proyectos
+
+5.	Descripción del Proceso
+5.1	Identificación: qué se va a configurar
+Esta función identifica aquellos ítems cuya configuración necesita ser controlada; usualmente consiste en hardware, software y documentación
+A continuación, se presenta la lista con aquellos ítems que se configurarán en el proyecto:
+•	Lista de Exigencias
+•	Especificación de Requerimientos de Software
+•	Diseño de Alto Nivel  y Diseño Detallado
+•	Módulos de código fuente: Java  
+•	Plan de Pruebas
+•	Casos de Pruebas
+•	Cronograma de actividades : Gantt
+•	Scripts de base de datos y archivos XML.
+ 
+5.2	Control de Cambios: Flujo del Proceso
+El control de configuración establece los procedimientos para proponer o solicitar cambios, evaluar los deseos de cambio, obtener autorización para los cambios, publicar y rastrear los cambios, e implementar los cambios.
+A continuación presentamos el flujo del proceso de cambio:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                              Sí		                         No
+
+
+
+
+
+
+
+
+ 
+5.3	Configuración de Cambios
+Las herramientas a utilizar serán:
+•	Explorador de Windows
+•	Correo electrónico gmail. Dirección: equipo.gnexus@gmail.com
+Se crearán carpetas por cada entregable. El formato del nombre de las carpetas será ENTREGABLE X; donde X será el número del entregable
+ Los nombres de los archivos tendrán el siguiente formato:
+Nombre Archivo – VX.xxx; donde V indica Versión, X es el número de versión y xxx es la extensión de archivo.
+El Nombre Archivo contendrá el nombre del archivo correspondiente; éste debe ser descriptivo. Por ejemplo, el nombre del archivo en WORD que contiene los diagramas y especificaciones de los casos de uso sería el siguiente: Casos – V1.doc
+En cada archivo se tendrá una breve descripción de los cambios realizados; así en los documentos de Word, está descripción se encontrará en la tabla “Historial de Revisiones”; en los documentos de Rational Rose, se encontrará en la sección Notas (en la esquina inferior izquierda); en el código fuente, se encontrará entre comentarios al inicio de cada archivo; en el Gantt se encontrará en la sección Notas, en el hito de la semana correspondiente. Además de la breve descripción, se debe indicar la fecha del cambio y la persona o personas que ejecutaron el cambio.
+Además de las carpetas por cada informe, se contará con una carpeta llamada VERSIONES FINALES, donde se mantendrá sólo las versiones finales de todos los documentos y fuentes entregados hasta la fecha.
+5.4	Comité de Revisión
+El Comité de Revisión se encargará de examinar los cambios y proponerlos. Estará conformado por los miembros del equipo de trabajo Equipo Gnexus.
+
+ 
+
+ 
+5.5	Comité de Control 
+El Comité de Control o Comité Aprobador se encargará de aprobar los cambios propuestos por el equipo de trabajo. Estará conformado por el Jefe de Proyecto (Gustavo Zarate) y el Jefe de QA (Eloy Ovalle).
+ 
+
+5.6	Gestor de Configuración
+El gestor de configuración lo constituirá el Jefe de Proyecto, Gustavo Zarate, como parte de sus tareas como Jefe de Integración.
+6.	Manejo de Configuración de Software
+6.1	Organización y Responsabilidades
+
+Miembros/Rol	Responsabilidades
+Administrador de SCM	Rol responsable de planear , establecer , administracion y realizar mantenimiento al repositorio
+
+Líder Técnico	Rol encargado de supervisar que el repositorio (sea utilizado de forma óptima por parte del equipo desarrollador) durante el ciclo de vida del proyecto. Así mismo, se coordinará con el Administrador de SCM para la creación y funcionamiento del versionado.
+
+Equipo del Proyecto	Rol que interactúa con el repositorio creando y operando sobre los ítems de configuración generados durante el proyecto. 
+
+6.2	Herramientas, Ambiente e Infraestructura
+Herramientas:
+
+	SVN : Es el sistema de control de versiones  subversión el cual permite: 
+
+•	Adicionar los artefactos que serán sometidos a gestión de la configuración.
+•	Registrar todos los cambios efectuados sobre los artefactos de un proyecto siempre y cuando estos estén bajo la Gestión de la Configuración.
+•	Recuperar versiones anteriores de los artefactos puestos bajo la Gestión de la Configuración.
+Conocer el historial de los cambios efectuados sobre un artefacto determinado (quien, cuando y que cambio se hizo).
+•	Interceder en los conflictos que se pudiesen presentar durante el desarrollo del proyecto, en los entornos en donde tanto los analistas como los desarrolladores interactuarán 
+
+Ambiente e Infraestructura
+
+En la estructura del repositorio se ubicara los diferentes artefactos generados durante en el proyecto, cada artefacto pertenecerá a una etapa del proyecto por lo que  se deberá colocar en la carpeta correspondiente del repositorio. El repositorio SVN será manejado a través de Google Code, este es un  repositorio para aplicaciones Open Source lo que permite que cualquier persona que halle los artefactos del proyecto por internet, puede obtenerlos sin ningún problema, pero para poder manipular se necesitara que el usuario este autorizado.  La estructura del repositorio será la descrita a continuación:
+
+Estructura de Carpetas:
+
+•	Análisis: Carpeta que contendrá los artefactos generados en la etapa análisis, especificación, validación y verificación de requisitos.
+•	Diseño: Carpeta que contendrá los artefactos generados como resultado del análisis detallado como los casos de uso y diagramas UML. 
+•	Construcción: Carpeta que contendrá el código fuente del aplicativo, los manuales y estándares establecidos para la codificación del proyecto.
+•	QA: Carpeta que contendrá la documentación relacionada con el aseguramiento de la calidad del producto como manuales técnicos, de usuario, casos de prueba entre otros.
+•	Despliegue: Carpeta que contendrá la documentación relacionada con el despliegue del aplicativo, acá irán documentación como el manual de despliegue y arquitectura de integración.
+•	GestionProyecto: Carpeta que contendrá la documentación relacionada con la gestión del proyecto como planes de gestión, cronogramas, plan de riesgos entre otros. 
+•	CM: Carpeta que contendrá la documentación relacionada con la gestión de la configuración como el presente plan, la matriz de ítems de configuración entre otros.
+•	Otros: Carpeta que contendrá la documentación que no está relacionada con ninguna etapa del ciclo de vida del software pero que es importante tener bajo la gestión de la configuración.   
+
+Repositorio Git de MONICA:
+
+Proveedor	GitHub
+URL Repositorio	https://github.com/viktor1976/MONICA
+Protocolo	https
+Usuario y contraseña	Solicitar al Líder de CM Usuario y password.
+
+7.	Recursos
+
+Esta sección describiremos los recursos necesarios para ejecutar las actividades de administración de configuración del proyecto, incluyendo las herramientas de software que se utilizarán a lo largo del proyecto.
+
+7.1	Recursos de Software 
+
+En la siguiente tabla se nombran las herramientas de software que se utilizarán en el proyecto y que aplican a la creación o mantenimiento de ítems de configuración.
+
+Recurso ID[1]	Nombre[2]	Propósito[3]	Ubicación[4]
+1	GIT	Repositorio de almacenamiento definitivo.	https://github.com/viktor1976/MONICA
+2	Enterprise Architect	Herramienta Case	Equipo local
+3	Project	Herramienta para administrar el proyecto	Equipo Local
+4	Office	Crear y administrar la documentación que no sea código fuente del proyecto	Equipo Local
+5	Gnexus	IDE Desarrollo de Aplicación para Java.	Equipo local
+6	WAMP	Set de herramientas para el desarrollo del sistema MONICA (Apache, MySql)	Equipo Local
+
+a)	Recurso ID: Identificador unívoco de la herramienta de software.
+b)	Nombre: Nombre de la herramienta de software.
+c)	Propósito: Describe el propósito de la herramienta (Ej. administrar toda la documentación que no sea código).
+d)	Ubicación: Describe la ubicación física de la herramienta utilizada (servidor, directorio, etc.)
+
+8.	Identificación de la configuración  
+
+8.1	Selección de los Ítems de Configuración 
+
+La selección de los ítems de configuración será responsabilidad del Director del Proyecto apoyado por el coordinador del mismo, la siguiente es una lista de los artefactos que podrían considerarse para ser candidatos en la Gestión de la Configuración, pero esta lista puede ser modificada y adaptada según las necesidades del proyecto.
+
+8.2	Identificación de los Ítems de Configuración
+
+Etapa del ciclo de vida	ID Ítem	Ítem de configuración	Recurso que genera / versiona el IC
+Análisis	1	Plan de Captura de requisitos	Analista
+	2	Documento de Análisis de requisitos.	Analista
+	3	Documento de Especificación de Requisitos	Analista
+	4	Documento de Validación de Requisitos.	Analista
+	5	Documento de Clasificación de Requisitos.	Analista
+	6	Documentos de Prototipos	Analista
+	7	Documento de Gestión de Requisitos. 	Director del Proyecto
+	8	Visión y Alcance 	Analista
+Diseño	9	Interfaces de Usuario	Analista, Arquitecto
+	10	Casos de uso	Analista, Arquitecto
+	11	Diagramas UML	Analista, Arquitecto
+	12	Especificaciones suplementarias de Casos de Uso	Analista, Arquitecto
+	13	Modelo de Base de Datos	Analista, Arquitecto
+Construcción	14	Código Fuente	Desarrollador
+	15	Archivos XML	Desarrollador
+	16	Archivos de Propiedades	Desarrollador
+	17	Scripts de Base de Datos	Desarrollador
+	18	Documento de Configuración de los Ambientes	Desarrollador
+QA	19	Plan de Aseguramiento de la Calidad	Analista de Calidad
+	20	Plan de Evaluación	Analista de Calidad
+	21	Plan de Pruebas	Analista de Calidad
+	22	Casos de Pruebas	Analista de Calidad
+Despliegue	23	Documento de Preparación de Ambiente	Analistas y Desarrollador
+	24	Documento de Software Requerido	Analistas y Desarrollador
+	25	Documento de Instalación y configuración del software.	Analistas y Desarrollador
+GestionProyecto	26	Lista de riesgos	Director del Proyecto
+	27	Plan de Gestión del Proyecto	Director del Proyecto
+	28	Plan de comunicaciones	Director del Proyecto
+	29	Planilla de Mediciones	Director del Proyecto
+	30	Cronograma del Proyecto	Director del Proyecto
+	31	Presupuestos	Director del Proyecto
+	32	Plan de Estimaciones	Director del Proyecto
+	33	Plan de Acción o Mitigación de riesgos	Director del Proyecto
+CM	34	Plan de Administración de la Configuración	Líder CM
+	34	Matriz de Ítems de Configuración.	Director del Proyecto
+Otros	35	Otros importantes	Director del Proyecto
+
+8.3	Permiso y Estructura de Directorios
+
+DIRECTORIO	ROL	NIVEL DE ACCESO
+		LECTURA	ESCRITURA
+ANALISIS	DIRECTOR	SI	NO
+	LIDER PROJECTO	SI	NO
+	ANALISTA	SI	SI
+	ARQUITECTO	SI	NO
+	DESARROLLADOR	SI	NO
+	ANALISTA CALIDAD	SI	NO
+DISEÑO	DIRECTOR	SI	NO
+	LIDER PROJECTO	SI	NO
+	ANALISTA	SI	SI
+	ARQUITECTO	SI	SI
+	DESARROLLADOR	SI	NO
+	ANALISTA CALIDAD	SI	NO
+CONSTRUCCION	DIRECTOR	SI	NO
+	LIDER PROJECTO	SI	NO
+	ANALISTA	SI	NO
+	ARQUITECTO	SI	SI
+	DESARROLLADOR	SI	SI
+	ANALISTA CALIDAD	SI	NO
+QA	DIRECTOR	SI	NO
+	LIDER PROJECTO	SI	NO
+	ANALISTA	SI	NO
+	ARQUITECTO	SI	NO
+	DESARROLLADOR	SI	NO
+	ANALISTA CALIDAD	SI	SI
+DESPLIEGUE	DIRECTOR	SI	NO
+	LIDER PROJECTO	SI	NO
+	ANALISTA	SI	NO
+	ARQUITECTO	SI	SI
+	DESARROLLADOR	SI	SI
+	ANALISTA CALIDAD	SI	NO
+GESTION PROYECTO	DIRECTOR	SI	SI
+	LIDER PROJECTO	SI	SI
+	ANALISTA	SI	NO
+	ARQUITECTO	SI	NO
+	DESARROLLADOR	SI	NO
+	ANALISTA CALIDAD	SI	NO
+CM	DIRECTOR	SI	NO
+	LIDER PROJECTO	SI	NO
+	ANALISTA	SI	NO
+	ARQUITECTO	SI	NO
+	LIDER CM	SI	SI
+	DESARROLLADOR	SI	NO
+	ANALISTA CALIDAD	SI	SI
+OTROS	DIRECTOR	SI	SI
+	LIDER PROJECTO	SI	SI
+	ANALISTA	SI	SI
+	ARQUITECTO	SI	SI
+	DESARROLLADOR	SI	SI
+	ANALISTA CALIDAD	SI	SI
+
+8.4	Determinación de líneas bases y release
+
+Línea Base	Momento	Ítems de configuración
+
+Planificación y Cronograma 	El objetivo es fijar la línea base de alcance para el proyecto, su estimación y planificación.
+Se genera una línea base por cada fase, y se modificará ante cada cambio crítico en la planificación del proyecto acordado con el Cliente, y por cada nuevo elemento o modificación de los documentos relacionados.	Planes
+Cronograma
+Lista de Riesgos
+Presupuestos.
+
+Análisis	Al fin de la etapa de análisis, cuando se tengan aprobado los requisitos del sistema, y se haya acordado el Documento de Visión se generará la línea base.
+Al fin de la Elaboración, cuando se tengan aprobadas las Especificaciones de Casos de Uso, se generará la línea base.
+Se generará una nueva línea base cada vez que se produzca una modificación en los requisitos  o en los casos de uso, por control de cambios.	Visión Y Alcance
+Especificaciones de Casos de Uso
+Prototipo de Pantalla
+Diagrama de Navegación
+Modelo de Clases de Análisis
+Documentos de Requisitos
+Diseño	Luego de terminadas las tareas de diseño se generara una nueva línea base para empezar la etapa de construcción.  	Diagramas UML
+Diagramas de Base de datos
+Modelos conceptuales
+Casos de Uso
+Sistema	Por cada entrega a QA o al Cliente, se generará una línea base.
+Una vez el Producto esté terminado, probado y validado con el cliente, se tendrá la línea base final.	Aplicación
+Documentos de configuración y despliegue.
+
+La siguiente tabla describe los distintos tipos de raleases referentes a la aplicación que se definen para los proyectos:
+
+Nombre Reléase 	Descripción
+Entrega a Calidad
+	Este reléase será creado cuando  exista un conjunto de código desarrollado en estado estable para comenzar las pruebas y acordada la planificación con el área de calidad.
+Aceptado	Este reléase será creado una vez se haya cumplido con los resultados esperados por el cliente y el área de calidad haya realizado todos los casos de pruebas con resultados óptimos revisado en detalle el desarrollo. Una vez obtenida la respuesta satisfactoria de este reléase se dará ejecución al reléase de producción.
+Producción	Este reléase se creará una vez que se haya recibido la aceptación por parte del cliente.
+
+8.5	Esquema de Nomenclatura y Numeración de versiones
+
+Nomenclatura de ítems de Configuración:
+
+Para nombrar los ítems de configuración tendremos en cuenta las siguientes características:
+
+•	Iníciales del nombre de la Etapa(3 primeros Caracteres) seguido de _
+•	Nombre del artefacto
+•	El nombre no deberá tener espacios en blanco
+
+Ej.: para nombrar el documento de especificación de requisitos que va en la etapa de análisis seria así: ANA_EspecificacionRequisitos.doc.
+
+Para aquellos artefactos no que no tienen una etapa definida seria el nombre de la carpeta la cual estarán almacenados por ejemplo la matriz de ítems de configuración que iría en la carpeta de CM seria: CM_MatrizdeItemsdeConfiguracion.xlsx
+
+Numeración de versiones:
+
+Para nombrar las versiones seguiremos el estándar XX.XXX.XXXXX en la cual la versión estará indicada por las 2 primeras XX el reléase de la versión por las 3 XXX siguientes y por último la compilación que estará representada por las ultimas 5 X 
+
+Política de Backup y de recuperación
+
+El Administrador de la gestión de la configuración sacara un backup semanalmente cada domingo del contenido del repositorio GIT, cada integrante del equipo deberá generar un backup semanal de su trabajo realizado de forma que lo pueda exportar a un sitio seguro por si llegase a necesitarse.  
+	
+9.	Control de la configuración
+9.1	Configuración y Control de Cambios
+
+Los cambios serán solicitados al director del proyecto por medio del correo electrónico (el cual será utilizado como medio de comunicación e información), el cual debe formalizar la petición de cambio por medio de un documento que describa el proyecto, la persona o rol que hace la petición del cambio, las funcionalidades que se pretenden mejorar o solucionar (Si es el caso), las funcionalidades que se podrían ver afectadas por el cambio, el impacto que traería el cambio para el proyecto tanto en términos de costos, cronograma y recursos tanto físicos como humanos, este documento será puesto en espera para el análisis profundo del Comité de Control de Cambios(CCC)    
+9.2	Procesamiento y Aprobación de Solicitudes de Cambio 
+
+Después de que la petición de cambio ha sido formalizada por el director del proyecto, el comité de control de cambios(CCC) hará un análisis profundo del cambio solicitado, el impacto sobre el proyecto y tomara las decisiones respectivas frente a la situación, sea cual sea la decisión adoptada por el comité, esta debe ser dada a conocer a la persona que solicito el cambio y en caso de ser negativa se le deben explicar las razones del porque no se ejecutara el cambio para plena satisfacción del solicitante, en caso de ser positiva seguirá el flujo normal para la adopción y ejecución del cambio solicitado. 
+9.3	Comité de Control de Cambios (CCC) 
+
+9.3.1	Integrantes del Comité de Control de Cambios (CCC)
+
+Miembros/Rol	Apellido y nombre
+Líder del CCC	¿??
+Responsable del proyecto	¿??
+Evaluador de Cambios	¿??
+	
+
+9.3.2	Reuniones de seguimiento
+
+Tipo de Reunión	Propósito	Frecuencia	Duración
+Reunión Semanal de avance	En la reunión semanal de avance con el cliente se deberán tratar los cambios presentados por el cliente	Semanal	1h
+			
+
+
+9.3.3	Responsabilidades del CCC
+
+El CCC tendrá la autoridad para administrar el proyecto de software en lo que respecta a las funciones que se describen a continuación:
+
+a.	Autorizar la creación de líneas base.
+b.	Representar al Administrador de Proyectos y a todos los grupos que pueden ser afectados por cambios a la línea base.
+c.	Evaluar la disponibilidad de recursos necesarios para la ejecución del cambio propuesto y los costos asociados. 
+d.	Evaluar como impactan los cambios propuestos en la planificación definida.
+
+9.4	Entornos / ambientes 
+La siguiente tabla describe los ambientes propuestos para el desarrollo y mantenimiento de los artefactos correspondientes al proyecto MONICA.
+
+ID	Descripción	Responsable	Ubicación
+1	Desarrollo	Desarrolladores	Equipo Local
+2	Calidad	¿?	¿?
+3	Producción	¿?	¿?
+
+10.	Auditoria de CM
+A continuación se describen las auditorias de CM a ser llevadas a cabo durante el proyecto.
+
+Audit. ID	Tipo	Descripción	Responsable	Momento
+1	Física	Auditar que estén bajo control de versión todos los ítems seleccionados en la matriz de ítems de configuración  para el proyecto MONICA.	QA	Aseguramiento de la Calidad
+2	Proceso	Auditar que se cumplan todos los ítems del área de proceso de CM, de acuerdo a lo establecido por el proceso de CM.	QA	Aseguramiento de la Calidad
+
+11.	Reportes de Estado 
+
+A continuación se describen los reportes de configuración a ser generados para identificar el estado de la configuración del software.
+
+ID de reporte	Propósito	Frecuencia	Responsable
+1	Informar del estado de la configuración y de la adherencia a procesos de acuerdo a lo establecido por el proceso de CM		QA
+
+12.	Definiciones, Siglas y Abreviaturas
+
+MONICA: Sistema de Gestión Contable.
+GITHUB: Sistema de control de versiones Git,
+Línea Base: Conjunto de componentes con una determinada versión que en forma conjunta permiten el funcionamiento de la aplicación (Baseline).
+CM: Administración de la Configuración (Configuration Management).
+SCM: Administración de la Configuración de Software (Software Configuration Management).CCC : Comité de Control de Cambios
+
+13.	Línea Base de la Gestión de Configuración
+Para este proyecto, los documentos línea base son:
+•	Plan de Proyecto Inicial
+•	Documento de Análisis
+•	Documento de Diseño de Alto Nivel y Diseño Detallado
+
